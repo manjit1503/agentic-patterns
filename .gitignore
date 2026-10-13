@@ -1,0 +1,29 @@
+# Secrets & env
+.env
+.env.*
+!.env.example
+*.pem
+*.pfx
+local.settings.json
+
+# azd / Azure
+.azure/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+*.egg-info/
+
+# Terraform / Bicep outputs
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
